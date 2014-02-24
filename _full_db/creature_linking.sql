@@ -1,0 +1,187 @@
+--
+-- Copyright (C) 2005-2014 MaNGOS <http://getmangos.com/>
+--
+-- This program is free software; you can redistribute it and/or modify
+-- it under the terms of the GNU General Public License as published by
+-- the Free Software Foundation; either version 2 of the License, or
+-- (at your option) any later version.
+--
+-- This program is distributed in the hope that it will be useful,
+-- but WITHOUT ANY WARRANTY; without even the implied warranty of
+-- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+-- GNU General Public License for more details.
+--
+-- You should have received a copy of the GNU General Public License
+-- along with this program; if not, write to the Free Software
+-- Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+--
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+--
+-- Table structure for table `creature_linking`
+--
+
+DROP TABLE IF EXISTS `creature_linking`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `creature_linking` (
+  `guid` int(10) unsigned NOT NULL COMMENT 'creature.guid of the slave mob that is linked',
+  `master_guid` int(10) unsigned NOT NULL COMMENT 'master to trigger events',
+  `flag` mediumint(8) unsigned NOT NULL COMMENT 'flag - describing what should happen when',
+  PRIMARY KEY (`guid`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 ROW_FORMAT=FIXED COMMENT='Creature Linking System';
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `creature_linking`
+--
+
+LOCK TABLES `creature_linking` WRITE;
+/*!40000 ALTER TABLE `creature_linking` DISABLE KEYS */;
+INSERT INTO `creature_linking` (`guid`, `master_guid`, `flag`) VALUES
+(13991,13990,515),
+(13992,13990,515),
+(88425,88424,515),
+(88398,88397,515),
+(88399,88397,515),
+(88442,88440,515),
+(88441,88440,515),
+(87401,87400,3),
+(87405,87400,3),
+(160064,160063,515),
+(160057,160056,515),
+(160142,40272,515),
+(160143,40272,515),
+(160159,40272,515),
+(160254,160244,515),
+(160230,160244,515),
+(160207,160244,515),
+(160208,160244,515),
+(88262,88263,3),
+(88261,88263,3),
+(88264,88263,3),
+(88268,88272,3),
+(88267,88272,3),
+(88278,88281,3),
+(88279,88281,3),
+(88280,88281,3),
+(88349,88345,515),
+(88350,88345,515),
+(88351,88345,515),
+(88352,88345,515),
+(88353,88345,515),
+(88354,88345,515),
+(88355,88345,515),
+(88356,88345,515),
+(88357,88345,515),
+(88381,88380,515),
+(88382,88380,515),
+(88383,88380,515),
+(88384,88380,515),
+(88385,88380,515),
+(88386,88380,515),
+(88387,88380,515),
+(88388,88380,515),
+(88389,88380,515),
+(88359,88358,515),
+(88360,88358,515),
+(88361,88358,515),
+(88362,88358,515),
+(88363,88358,515),
+(88364,88358,515),
+(88365,88358,515),
+(88366,88358,515),
+(88367,88358,515),
+(88567,88574,3),
+(88568,88574,3),
+(88569,88574,3),
+(88570,88574,3),
+(88571,88574,3),
+(88572,88574,3),
+(88573,88574,3),
+(88575,88582,3),
+(88576,88582,3),
+(88577,88582,3),
+(88578,88582,3),
+(88579,88582,3),
+(88580,88582,3),
+(88581,88582,3),
+(88583,88590,3),
+(88584,88590,3),
+(88585,88590,3),
+(88586,88590,3),
+(88587,88590,3),
+(88588,88590,3),
+(88589,88590,3),
+(88591,88598,3),
+(88592,88598,3),
+(88593,88598,3),
+(88594,88598,3),
+(88595,88598,3),
+(88596,88598,3),
+(88597,88598,3),
+(88599,88624,3),
+(88600,88624,3),
+(88601,88624,3),
+(88602,88624,3),
+(88603,88624,3),
+(88604,88624,3),
+(88605,88624,3),
+(88625,88632,3),
+(88626,88632,3),
+(88627,88632,3),
+(88628,88632,3),
+(88629,88632,3),
+(88630,88632,3),
+(88631,88632,3),
+(88842,127981,3),
+(88843,127981,3),
+(88841,127981,3),
+(88840,127981,3),
+(88620,88779,3),
+(88845,88779,3),
+(88844,88779,3),
+(88621,88779,3),
+(88623,127982,3),
+(88846,127982,3),
+(88847,127982,3),
+(88622,127982,3),
+(88849,88851,515),
+(88850,88851,515),
+(88852,88851,515),
+(88856,88855,3),
+(88857,88858,3),
+(88859,88862,515),
+(88860,88862,515),
+(88861,88862,515),
+(88864,88867,515),
+(88865,88867,515),
+(88866,88867,515),
+(88871,88873,515),
+(88872,88873,515),
+(88874,88873,515),
+(88876,88879,515),
+(88877,88879,515),
+(88878,88879,515);
+/*!40000 ALTER TABLE `creature_linking` ENABLE KEYS */;
+UNLOCK TABLES;
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
