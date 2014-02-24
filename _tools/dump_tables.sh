@@ -10,7 +10,7 @@ DDUMPDIR=./mangos
 i=1
 
 
-do_dump_tbc() {
+do_dump_classic() {
 
 mkdir -p ${DUMPDIR}
 
@@ -36,7 +36,6 @@ creature_linking \
 creature_linking_template \
 creature_loot_template \
 creature_model_info \
-creature_model_race \
 creature_movement \
 creature_movement_template \
 creature_onkill_reputation \
@@ -49,8 +48,8 @@ db_version \
 dbscripts_on_creature_death \
 dbscripts_on_creature_movement \
 dbscripts_on_event \
-dbscripts_on_go_use \
 dbscripts_on_go_template_use \
+dbscripts_on_go_use \
 dbscripts_on_gossip \
 dbscripts_on_quest_end \
 dbscripts_on_quest_start \
@@ -88,7 +87,6 @@ locales_npc_text \
 locales_page_text \
 locales_points_of_interest \
 locales_quest \
-mail_level_reward \
 mail_loot_template \
 mangos_string \
 npc_gossip \
@@ -116,7 +114,6 @@ pool_gameobject \
 pool_gameobject_template \
 pool_pool \
 pool_template \
-prospecting_loot_template \
 quest_template \
 reference_loot_template \
 reputation_reward_rate \
@@ -124,8 +121,6 @@ reputation_spillover_template \
 reserved_name \
 scripted_areatrigger \
 scripted_event_id \
-skill_discovery_template \
-skill_extra_item_template \
 skill_fishing_base_level \
 skinning_loot_template \
 spell_affect \
@@ -133,19 +128,19 @@ spell_area \
 spell_bonus_data \
 spell_chain \
 spell_elixir \
+spell_facing \
 spell_learn_spell \
 spell_pet_auras \
 spell_proc_event \
 spell_proc_item_enchant \
 spell_script_target \
 spell_target_position \
-spell_template \
 spell_threat \
 transports \
 world_template \
 ; do
 
-echo "Dumping ${i}/127 ${TABLE}..."
+echo "Dumping ${i}/122 ${TABLE}..."
 
 echo "--
 -- Copyright (C) 2005-2014 MaNGOS <http://getmangos.com/>
@@ -208,4 +203,4 @@ fi
 
 DB=$1
 
-do_dump_tbc
+do_dump_classic
