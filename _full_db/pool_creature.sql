@@ -52,8 +52,10 @@ LOCK TABLES `pool_creature` WRITE;
 /*!40000 ALTER TABLE `pool_creature` DISABLE KEYS */;
 INSERT INTO `pool_creature` (`guid`, `pool_entry`, `chance`, `description`) VALUES
 (12596,1175,0,'Q002518_lady_sathrah'),
+(31774,1181,30,'Ragglesnout (7354) Razorfen Downs'),
 (33458,1179,70,'Alternate creature to Dark Iron Ambassador (6228) Gnomeregan'),
 (73001,1175,0,'Q002518_lady_sathrah'),
+(87199,1181,70,'Alternate creature to Ragglesnout (7354) Razorfen Downs'),
 (87327,1176,70,'Alternate creature to Halmgar (4842) Razorfen Kraul'),
 (87485,1177,30,'Blind Hunter (4425) Razorfen Kraul'),
 (99291,1601,70,'Tormented Officer'),

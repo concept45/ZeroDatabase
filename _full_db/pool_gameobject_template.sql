@@ -51,6 +51,7 @@ CREATE TABLE `pool_gameobject_template` (
 LOCK TABLES `pool_gameobject_template` WRITE;
 /*!40000 ALTER TABLE `pool_gameobject_template` DISABLE KEYS */;
 INSERT INTO `pool_gameobject_template` (`id`, `pool_entry`, `chance`, `description`) VALUES
+(161557,1669,0,'Milly\'s Harvest (161557)'),
 (175334,1668,0,'Bijous Belongings'),
 (180654,1801,0,'Hardpacked Snowdrift (180654)');
 /*!40000 ALTER TABLE `pool_gameobject_template` ENABLE KEYS */;
