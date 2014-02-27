@@ -368,7 +368,7 @@ INSERT INTO `creature_ai_texts` (`entry`, `content_default`, `content_loc1`, `co
 (-176,'D\'ah! Now you\'re making me angry!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,5779,0,0,0,'646'),
 (-175,'You land lovers are tougher then I thought! I will need to improvise',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,5778,0,0,0,'646'),
 (-174,'We\'re under attack! Avast ya swabs! Repel the invaders!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,5777,1,0,0,'646'),
-(-173,'The Brotherhood will prevail!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,5784,1,0,0,'639'),
+(-173,'The Brotherhood shall prevail!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,5784,1,0,0,'639'),
 (-172,'Fools! Our cause is righteous!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,5783,1,0,0,'639'),
 (-171,'Lapdogs, all of you!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,5782,1,0,0,'639'),
 (-170,'And stay down!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,5781,1,0,0,'639'),

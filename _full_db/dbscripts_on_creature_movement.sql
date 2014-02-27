@@ -63,6 +63,20 @@ LOCK TABLES `dbscripts_on_creature_movement` WRITE;
 /*!40000 ALTER TABLE `dbscripts_on_creature_movement` DISABLE KEYS */;
 INSERT INTO `dbscripts_on_creature_movement` (`id`, `delay`, `command`, `datalong`, `datalong2`, `buddy_entry`, `search_radius`, `data_flags`, `dataint`, `dataint2`, `dataint3`, `dataint4`, `x`, `y`, `z`, `o`, `comments`) VALUES
 (1,0,18,0,0,0,0,0,0,0,0,0,0,0,0,0,'despawn self, this script is used by many creatures'),
+(2,1,1,22,0,16145,8,0,0,0,0,0,0,0,0,0,'Deathknight Captain shout'),
+(2,3,1,36,0,16146,8,0,0,0,0,0,0,0,0,0,'Deathknight buddy attacks combat dummy'),
+(2,5,1,36,0,0,0,0,0,0,0,0,0,0,0,0,'Deathknight attacks combat dummy'),
+(2,12,1,36,0,16146,8,0,0,0,0,0,0,0,0,0,'Deathknight buddy attacks combat dummy'),
+(2,13,1,36,0,0,0,0,0,0,0,0,0,0,0,0,'Deathknight attacks combat dummy'),
+(2,20,1,36,0,0,0,0,0,0,0,0,0,0,0,0,'Deathknight attacks combat dummy'),
+(2,21,1,36,0,16146,8,0,0,0,0,0,0,0,0,0,'Deathknight buddy attacks combat dummy'),
+(3,1,1,36,0,16145,8,0,0,0,0,0,0,0,0,0,'Deathknight captain attacks'),
+(3,2,1,43,0,0,0,0,0,0,0,0,0,0,0,0,'Deathknight parries'),
+(3,5,1,1,0,16145,8,0,0,0,0,0,0,0,0,0,'Deathknight captain talks'),
+(3,7,1,36,0,16145,8,0,0,0,0,0,0,0,0,0,'Deathknight captain attacks'),
+(3,8,1,43,0,0,0,0,0,0,0,0,0,0,0,0,'Deathknight parries'),
+(3,14,1,60,0,16145,8,0,0,0,0,0,0,0,0,0,'Deathknight captain kicks'),
+(3,15,1,43,0,0,0,0,0,0,0,0,0,0,0,0,'Deathknight parries'),
 (7273,0,20,1,15,0,0,8,0,0,0,0,0,0,0,0,'Let Gahzrilla move random'),
 (14241,1,1,35,0,0,0,0,0,0,0,0,0,0,0,0,'ironbark redeemed - emote'),
 (14241,6,1,35,0,0,0,0,0,0,0,0,0,0,0,0,'ironbark redeemed - emote'),
@@ -97,7 +111,7 @@ INSERT INTO `dbscripts_on_creature_movement` (`id`, `delay`, `command`, `datalon
 (298301,2,0,2,0,0,0,0,2000000168,0,0,0,0,0,0,0,'The plains vision: say - text_emote'),
 (298302,2,0,2,0,0,0,0,2000000169,0,0,0,0,0,0,0,'The plains vision: say - text_emote'),
 (406801,2,0,2,0,0,0,0,2000000094,0,0,0,0,0,0,0,'Serpent Messenger - text emote'),
-(406801,8,0,2,10,0,3419,4,2000000095,0,0,0,0,0,0,0,'Serpent Messenger: Force NPC to text emote'),
+(406801,8,0,2,0,3419,10,4,2000000095,0,0,0,0,0,0,0,'Serpent Messenger: Force NPC to text emote'),
 (504301,0,25,1,0,0,0,0,0,0,0,0,0,0,0,0,'DefiasRioter-SetRunModeOn'),
 (590101,0,10,11256,30000,0,0,0,0,0,0,0,-1346.59,-4076.39,-1.23,1.6,'Islensummon'),
 (590101,1,1,68,0,0,0,0,0,0,0,0,0,0,0,0,'Islenkneel'),
@@ -154,7 +168,8 @@ INSERT INTO `dbscripts_on_creature_movement` (`id`, `delay`, `command`, `datalon
 (1606101,5,1,1,0,16803,5,0,0,0,0,0,0,0,0,0,'talks'),
 (1606101,8,1,66,0,16803,5,0,0,0,0,0,0,0,0,0,'salutes'),
 (1606101,11,3,0,0,16803,5,0,0,0,0,0,0,0,0,2.03,'Turns toward dummy'),
-(1606101,11,1,333,0,16803,5,0,0,0,0,0,0,0,0,0,'change emote state: train');
+(1606101,11,1,333,0,16803,5,0,0,0,0,0,0,0,0,0,'change emote state: train'),
+(1606102,0,1,36,0,16803,60,0,0,0,0,0,0,0,0,0,'Understudy attacks combat dummy');
 /*!40000 ALTER TABLE `dbscripts_on_creature_movement` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
