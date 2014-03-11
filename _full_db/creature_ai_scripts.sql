@@ -8833,12 +8833,12 @@ INSERT INTO `creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inv
 (829609,8296,9,0,100,1,0,30,9000,14000,11,17228,4,1,0,0,0,0,0,0,0,0,'Mojo the Twisted - Cast Shadow Bolt Volley'),
 (829610,8296,7,0,100,0,0,0,0,0,22,0,0,0,0,0,0,0,0,0,0,0,'Mojo the Twisted - Set Phase to 0 on Evade'),
 (829701,8297,0,0,100,1,3000,5000,5000,8000,11,15284,1,0,0,0,0,0,0,0,0,0,'Magronos the Unyielding - Cast Cleave'),
-(829702,8297,0,0,100,1,1000,3000,12000,14000,11,9080,1,1,0,0,0,0,0,0,0,0,'Magronos the Unyielding - Cast Hamstring');
-INSERT INTO `creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inverse_phase_mask`, `event_chance`, `event_flags`, `event_param1`, `event_param2`, `event_param3`, `event_param4`, `action1_type`, `action1_param1`, `action1_param2`, `action1_param3`, `action2_type`, `action2_param1`, `action2_param2`, `action2_param3`, `action3_type`, `action3_param1`, `action3_param2`, `action3_param3`, `comment`) VALUES
+(829702,8297,0,0,100,1,1000,3000,12000,14000,11,9080,1,1,0,0,0,0,0,0,0,0,'Magronos the Unyielding - Cast Hamstring'),
 (829703,8297,2,0,100,1,30,0,120000,120000,11,8599,0,1,1,-106,0,0,0,0,0,0,'Magronos the Unyielding - Cast Enrage at 30% HP'),
 (829801,8298,1,0,100,0,0,0,0,0,21,0,0,0,22,0,0,0,0,0,0,0,'Akubar the Seer - Prevent Combat Movement and Set Phase to 0 on Spawn'),
 (829802,8298,4,0,100,0,0,0,0,0,11,20824,1,0,23,1,0,0,0,0,0,0,'Akubar the Seer - Cast Lightning Bolt and Set Phase 1 on Aggro'),
-(829803,8298,9,13,100,1,0,40,3400,4800,11,20824,1,0,0,0,0,0,0,0,0,0,'Akubar the Seer - Cast Lightning Bolt (Phase 1)'),
+(829803,8298,9,13,100,1,0,40,3400,4800,11,20824,1,0,0,0,0,0,0,0,0,0,'Akubar the Seer - Cast Lightning Bolt (Phase 1)');
+INSERT INTO `creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inverse_phase_mask`, `event_chance`, `event_flags`, `event_param1`, `event_param2`, `event_param3`, `event_param4`, `action1_type`, `action1_param1`, `action1_param2`, `action1_param3`, `action2_type`, `action2_param1`, `action2_param2`, `action2_param3`, `action3_type`, `action3_param1`, `action3_param2`, `action3_param3`, `comment`) VALUES
 (829804,8298,3,13,100,0,7,0,0,0,21,1,0,0,23,1,0,0,0,0,0,0,'Akubar the Seer - Start Combat Movement and Set Phase 2 when Mana is at 7% (Phase 1)'),
 (829805,8298,9,13,100,0,35,80,0,0,21,1,0,0,0,0,0,0,0,0,0,0,'Akubar the Seer - Start Combat Movement at 35 Yards (Phase 1)'),
 (829806,8298,9,13,100,0,5,15,0,0,21,0,0,0,0,0,0,0,0,0,0,0,'Akubar the Seer - Prevent Combat Movement at 15 Yards (Phase 1)'),
