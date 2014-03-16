@@ -186,6 +186,7 @@ INSERT INTO `dbscripts_on_gossip` (`id`, `delay`, `command`, `datalong`, `datalo
 (6763,0,15,25952,0,0,0,4,0,0,0,0,0,0,0,0,'free metzen - use visual effect'),
 (6763,7,8,15664,5,0,0,0,0,0,0,0,0,0,0,0,'free metzen - credit for metzen'),
 (6763,9,18,0,0,0,0,0,0,0,0,0,0,0,0,0,'free metzen - despawn'),
+(6918,0,15,26375,0,0,0,0,0,0,0,0,0,0,0,0,'Create Lunar Festival Invitation'),
 (8400,1,28,1,0,16381,10,0,0,0,0,0,0,0,0,0,'Archmage Tarsis - sits'),
 (15000,0,26,0,0,0,25,0,0,0,0,0,0,0,0,0,'Azuregos attacks player'),
 (15011,0,17,20949,1,0,25,2,0,0,0,0,0,0,0,0,'creates item Magical Ledger'),
