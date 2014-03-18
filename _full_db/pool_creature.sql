@@ -55,6 +55,8 @@ INSERT INTO `pool_creature` (`guid`, `pool_entry`, `chance`, `description`) VALU
 (31774,1181,30,'Ragglesnout (7354) Razorfen Downs'),
 (33458,1179,70,'Alternate creature to Dark Iron Ambassador (6228) Gnomeregan'),
 (73001,1175,0,'Q002518_lady_sathrah'),
+(79147,1182,80,'Alternate creature to Miner Johnson (3586) Deadmines'),
+(84079,1182,20,'Miner Johnson (3586) Deadmines'),
 (87199,1181,70,'Alternate creature to Ragglesnout (7354) Razorfen Downs'),
 (87327,1176,70,'Alternate creature to Halmgar (4842) Razorfen Kraul'),
 (87485,1177,30,'Blind Hunter (4425) Razorfen Kraul'),

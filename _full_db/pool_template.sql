@@ -502,6 +502,7 @@ INSERT INTO `pool_template` (`entry`, `max_limit`, `description`) VALUES
 (1179,1,'Dark Iron Ambassador (6228) Gnomeregan'),
 (1180,1,'Prince Raze (10647)'),
 (1181,1,'Ragglesnout (7354) Razorfen Downs'),
+(1182,1,'Miner Johnson (3586) Deadmines'),
 (1600,2,'Chest Spawn Pool - Shadowfang Keep'),
 (1601,1,'Deathsworn Captain Spawn Pool - Shadowfang Keep'),
 (1602,20,'Dire Maul pods MASTER'),

@@ -82,12 +82,12 @@ INSERT INTO `dbscripts_on_go_template_use` (`id`, `delay`, `command`, `datalong`
 (124371,27,11,14394,9000000,0,0,0,0,0,0,0,0,0,0,0,'Open the Seal of Khaz\'Mul'),
 (124371,28,0,1,0,7228,100,0,2000005346,0,0,0,0,0,0,0,'Ironaya yell'),
 (124371,28,20,2,0,7228,100,0,0,0,0,0,0,0,0,0,'Ironaya starts moving'),
-(300058,0,15,26448,0,15892,7,3,0,0,0,0,0,0,0,0,'Lunar Festival - Teleports Moonglade - Alliance'),
-(300058,0,15,26448,0,15891,7,3,0,0,0,0,0,0,0,0,'Lunar Festival - Teleports Moonglade - Horde'),
-(300058,0,15,26454,0,15694,7,5,0,0,0,0,0,0,0,0,'Lunar Festival - Teleports Storwimnd'),
-(300058,0,15,26452,0,15906,7,5,0,0,0,0,0,0,0,0,'Lunar Festival - Teleports Ironforge'),
-(300058,0,15,26450,0,15905,7,5,0,0,0,0,0,0,0,0,'Lunar Festival - Teleports Darnassus'),
 (300058,0,15,26453,0,15908,7,5,0,0,0,0,0,0,0,0,'Lunar Festival - Teleports Orgrimmar'),
+(300058,0,15,26450,0,15905,7,5,0,0,0,0,0,0,0,0,'Lunar Festival - Teleports Darnassus'),
+(300058,0,15,26452,0,15906,7,5,0,0,0,0,0,0,0,0,'Lunar Festival - Teleports Ironforge'),
+(300058,0,15,26454,0,15694,7,5,0,0,0,0,0,0,0,0,'Lunar Festival - Teleports Storwimnd'),
+(300058,0,15,26448,0,15891,7,3,0,0,0,0,0,0,0,0,'Lunar Festival - Teleports Moonglade - Horde'),
+(300058,0,15,26448,0,15892,7,3,0,0,0,0,0,0,0,0,'Lunar Festival - Teleports Moonglade - Alliance'),
 (300058,0,15,26456,0,15907,7,5,0,0,0,0,0,0,0,0,'Lunar Festival - Teleports Undercity'),
 (300058,0,15,26455,0,15719,7,5,0,0,0,0,0,0,0,0,'Lunar Festival - Teleports Thunderbluff');
 /*!40000 ALTER TABLE `dbscripts_on_go_template_use` ENABLE KEYS */;
