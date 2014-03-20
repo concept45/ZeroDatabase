@@ -2819,6 +2819,7 @@ UPDATE locales_gossip_menu_option SET option_text_loc3='Kämpft.' WHERE menu_id=
 UPDATE locales_gossip_menu_option SET option_text_loc3='Entschuldigt Euch.' WHERE menu_id=11388 AND id=1;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Wie machen wir das?' WHERE menu_id=11398 AND id=0;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Seht den Untergang des Lichkönigs.' WHERE menu_id=11431 AND id=0;
+UPDATE locales_gossip_menu_option SET option_text_loc3='Zeigt mir, was Ihr verkauft.' WHERE menu_id=11778 AND id=1;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich möchte einen Blick in mein Schließfach werfen.' WHERE menu_id=20000 AND id=0; /* Should be verified */
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich möchte ein wenig Eure Waren betrachten.' WHERE menu_id=20000 AND id=1;
 UPDATE locales_gossip_menu_option SET option_text_loc3='Ich glaube an Euch.' WHERE menu_id=20001 AND id=0;
