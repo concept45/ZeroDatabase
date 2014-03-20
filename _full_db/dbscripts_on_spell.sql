@@ -68,6 +68,8 @@ INSERT INTO `dbscripts_on_spell` (`id`, `delay`, `command`, `datalong`, `datalon
 (11887,3,18,0,0,0,0,0,0,0,0,0,0,0,0,0,'Despawn hyppogryph corpse'),
 (11888,3,18,0,0,0,0,0,0,0,0,0,0,0,0,0,'Despawn faerie dragon corpse'),
 (11889,3,18,0,0,0,0,0,0,0,0,0,0,0,0,0,'Despawn mountain giant corpse'),
+(19250,0,8,0,0,0,0,0,0,0,0,0,0,0,0,0,'killcredit'),
+(19250,1,18,0,0,0,0,0,0,0,0,0,0,0,0,0,'despawn self'),
 (21052,0,15,8329,0,0,0,6,0,0,0,0,0,0,0,0,'Enthralled Deeprun Rat - Cast Suicide');
 /*!40000 ALTER TABLE `dbscripts_on_spell` ENABLE KEYS */;
 UNLOCK TABLES;
