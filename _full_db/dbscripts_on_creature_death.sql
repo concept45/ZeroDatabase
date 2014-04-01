@@ -62,7 +62,12 @@ CREATE TABLE `dbscripts_on_creature_death` (
 LOCK TABLES `dbscripts_on_creature_death` WRITE;
 /*!40000 ALTER TABLE `dbscripts_on_creature_death` DISABLE KEYS */;
 INSERT INTO `dbscripts_on_creature_death` (`id`, `delay`, `command`, `datalong`, `datalong2`, `buddy_entry`, `search_radius`, `data_flags`, `dataint`, `dataint2`, `dataint3`, `dataint4`, `x`, `y`, `z`, `o`, `comments`) VALUES
-(11489,1,10,14566,1200000,0,0,0,0,0,0,0,33.76,491.548,-23.281,3.16,'spawns - Ancient Equine Spirit');
+(11489,1,10,14566,1200000,0,0,0,0,0,0,0,33.76,491.548,-23.281,3.16,'spawns - Ancient Equine Spirit'),
+(15355,1,15,27627,0,0,0,8,0,0,0,0,0,0,0,0,'drops small obsidian chunk'),
+(15338,1,15,27627,0,0,0,8,0,0,0,0,0,0,0,0,'drops small obsidian chunk'),
+(15264,1,15,27627,0,0,0,8,0,0,0,0,0,0,0,0,'drops small obsidian chunk'),
+(15340,1,15,27630,0,0,0,8,0,0,0,0,0,0,0,0,'drops large obsidian chunk'),
+(15277,1,15,27630,0,0,0,8,0,0,0,0,0,0,0,0,'drops large obsidian chunk');
 /*!40000 ALTER TABLE `dbscripts_on_creature_death` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
