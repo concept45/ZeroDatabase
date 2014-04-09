@@ -16,14 +16,7 @@
 -- Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 --
 
-UPDATE creature SET
-curhealth = (SELECT FLOOR(RAND(1)*(maxhealth - minhealth) + minhealth) FROM creature_template WHERE creature.id = creature_template.entry)
-WHERE curhealth < (SELECT minhealth FROM creature_template WHERE creature.id = creature_template.entry);
-
-UPDATE creature SET
-curmana = (SELECT FLOOR(RAND(1)*(maxmana - minmana) + minmana) FROM creature_template WHERE creature.id = creature_template.entry)
-WHERE curmana < (SELECT minmana FROM creature_template WHERE creature.id = creature_template.entry);
-
+UPDATE creature, creature_template SET creature.curhealth=creature_template.MinLevelHealth,creature.curmana=creature_template.MinLevelMana WHERE creature.id=creature_template.entry and creature_template.RegenerateHealth = '1';
 UPDATE creature SET MovementType = 1 WHERE spawndist != 0 AND MovementType = 0;
 UPDATE creature SET MovementType = 0 WHERE spawndist = 0 AND MovementType != 2;
 UPDATE creature SET MovementType = 2 WHERE guid IN (SELECT DISTINCT id FROM creature_movement);
