@@ -86,10 +86,10 @@ INSERT INTO `dbscripts_on_go_template_use` (`id`, `delay`, `command`, `datalong`
 (300058,0,15,26456,0,15907,7,5,0,0,0,0,0,0,0,0,'Lunar Festival - Teleports Undercity'),
 (300058,0,15,26453,0,15908,7,5,0,0,0,0,0,0,0,0,'Lunar Festival - Teleports Orgrimmar'),
 (300058,0,15,26450,0,15905,7,5,0,0,0,0,0,0,0,0,'Lunar Festival - Teleports Darnassus'),
-(300058,0,15,26448,0,15892,7,3,0,0,0,0,0,0,0,0,'Lunar Festival - Teleports Moonglade - Alliance'),
-(300058,0,15,26448,0,15891,7,3,0,0,0,0,0,0,0,0,'Lunar Festival - Teleports Moonglade - Horde'),
+(300058,0,15,26452,0,15906,7,5,0,0,0,0,0,0,0,0,'Lunar Festival - Teleports Ironforge'),
 (300058,0,15,26454,0,15694,7,5,0,0,0,0,0,0,0,0,'Lunar Festival - Teleports Storwimnd'),
-(300058,0,15,26452,0,15906,7,5,0,0,0,0,0,0,0,0,'Lunar Festival - Teleports Ironforge');
+(300058,0,15,26448,0,15891,7,3,0,0,0,0,0,0,0,0,'Lunar Festival - Teleports Moonglade - Horde'),
+(300058,0,15,26448,0,15892,7,3,0,0,0,0,0,0,0,0,'Lunar Festival - Teleports Moonglade - Alliance');
 /*!40000 ALTER TABLE `dbscripts_on_go_template_use` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

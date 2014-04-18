@@ -64,6 +64,7 @@ INSERT INTO `game_graveyard_zone` (`id`, `ghost_zone`, `faction`) VALUES
 (31,405,0),
 (31,2100,0),
 (32,14,0),
+(32,1637,469),
 (34,215,67),
 (35,148,469),
 (36,41,0),
@@ -143,7 +144,6 @@ INSERT INTO `game_graveyard_zone` (`id`, `ghost_zone`, `faction`) VALUES
 (512,148,67),
 (512,331,0),
 (512,719,0),
-(512,1637,469),
 (529,22,0),
 (569,28,67),
 (569,85,67),
@@ -216,6 +216,7 @@ INSERT INTO `game_graveyard_zone` (`id`, `ghost_zone`, `faction`) VALUES
 (913,1377,0),
 (913,3478,0),
 (913,3428,0),
+(913,3429,0),
 (927,139,0);
 /*!40000 ALTER TABLE `game_graveyard_zone` ENABLE KEYS */;
 UNLOCK TABLES;
