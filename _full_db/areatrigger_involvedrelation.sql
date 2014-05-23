@@ -67,6 +67,7 @@ INSERT INTO `areatrigger_involvedrelation` (`id`, `quest`) VALUES
 (362,1448),
 (482,1699),
 (522,1719),
+(822,2240),
 (1205,2989),
 (1388,3505),
 (2327,4842),
