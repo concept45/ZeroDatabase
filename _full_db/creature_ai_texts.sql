@@ -410,6 +410,8 @@ INSERT INTO `creature_ai_texts` (`entry`, `content_default`, `content_loc1`, `co
 (-28,'You do not belong here!  Ancients, rise against these intruders!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,0,1,0,0,'11489'),
 (-22,'VanCleef pay big for you heads!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,5774,1,0,0,'644'),
 (-18,'For Victory! For Agamaggan!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,5812,1,0,0,'4420'),
+(-10,'Listen carefully, for the lord of Blackrock will surely destroy you, should you not be prepared.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,0,0,0,0,'Vaelan greetings'),
+(-9,'At last: one among you is worthy of my knowledge. Worry not: I have probed your thoughts, no harm will come to you.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,0,0,0,0,'Vaelan greetings'),
 (-8,'Yiieeeee! Me run!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,0,0,0,0,'Common Kobold Text'),
 (-7,'You no take candle!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,0,0,0,0,'Common Kobold Text'),
 (-6,'Grrrr... fresh meat!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,0,0,0,0,'Common Gnoll Text'),
